@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        // Deklaracja zmiennych
+        
         int number = 10;
         float money = 99.99f;
         string text = "Hello, C#!";
@@ -50,13 +50,13 @@ class Program
             Console.WriteLine($"{n1} jest równe {n2}");
         }
 
-        // Pętla for
+        
         for (int i = 0; i < 10; i++)
         {
             Console.WriteLine("C#");
         }
 
-        // Pętla while
+        
         int count = 0;
         while (count < 10)
         {
@@ -64,7 +64,7 @@ class Program
             count++;
         }
 
-        // Sprawdzenie parzystości liczb od 0 do n
+        
         int n = 10;
         for (int i = 0; i <= n; i++)
         {
@@ -78,7 +78,7 @@ class Program
             }
         }
 
-        // Wypisanie schematu gwiazdek
+        
         int starsN = 5;
         for (int i = 1; i <= starsN; i++)
         {
@@ -89,7 +89,6 @@ class Program
             Console.WriteLine();
         }
 
-        // Wyświetlenie wartości zmiennych w konsoli
         Console.WriteLine($"Number: {number}");
         Console.WriteLine($"Money: {money}");
         Console.WriteLine($"Text: {text}");
