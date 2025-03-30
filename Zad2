@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        // Zadanie 1
+        string[] colors = { "niebieski", "zielony", "żółty", "czerwony" };
+        Console.WriteLine($"Mój pierwszy kolor to: {colors[0]}");
+        Console.WriteLine($"Mój ostatni kolor to: {colors[colors.Length - 1]}");
+        // Zadanie 2
+        int[] numbers = { 3, 7, 12, 5, 9, 21, 13, 8, 6, 14 };
+        foreach (int number in numbers)
+        {
+            Console.WriteLine($"Liczba: {number}");
+        }
+        // Zadanie 3
+        List<string> fruits = new List<string> { "Pomidor", "Jabłko", "Marchewka", "Gruszka" };
+        Console.WriteLine(string.Join(", ", fruits));
+
+        fruits.RemoveAt(0); 
+        fruits.RemoveAt(fruits.Count - 1);
+
+        Console.WriteLine(string.Join(", ", fruits));
+    }
+}
